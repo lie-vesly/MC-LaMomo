@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Remplissez des informations pour votre commande</title>
+</head>
+<body>
+  <form action="">
+    <div class="text">
+        <h3>Remplissez les informations ci-dessous pour passer votre commande</h3><br><br>
+    </div>
+    <div class="section">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" placeholder="Entrez votre nom">
+        <div class="section">
+            <label for="prénom">Prénom</label>
+            <input type="prénom" id="prénom" placeholder="Entrez votre prénom">
+            <div class="section">
+                <label for="sexe">Sexe
+                <select name="sexe" id="sexe">
+                    <option value="Masculin">Masculin</option>
+                    <option value="Feminin">Feminin</option>
+                </select></label>
+                <div class="section">
+                    <label for="adresse">Adresse</label>
+                    <input type="adresse" id="adresse" placeholder="Entrez votre Adresse">
+                </div>
+                <div class="section">
+                    <label for="téléphone">Téléphone</label>
+                    <input type="tel" id="téléphone" placeholder="Entrez votre téléphone">
+                </div>
+            <div class="section">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Entrez votre email">
+        </div>
+        <div class="section">
+            <label for="mot de passe">Mot de passe</label>
+            <input type="password" id="mot de passe" placeholder="Entrez votre mot de passe">
+        <div class="button"></div>
+            <button id="send" onclick="whatsApp_send_datas();">S'inscrire</button>
+        </div>
+    </div>
+    <p><marquee behavior="" direction="left">Simpliez-vous la vie avec les services de MC-LaMomo</marquee></p>
+  </form>  
+</body>
+<script src="main.js"></script>
+
+</html>
